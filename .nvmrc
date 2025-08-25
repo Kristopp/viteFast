@@ -1,0 +1,3 @@
+# .nvmrc file for viteFast monorepo
+# Specify the Node.js version to use for development
+22.18.0
