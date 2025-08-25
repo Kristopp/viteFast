@@ -36,25 +36,30 @@ A modern, full-stack TypeScript template for building AI agent applications with
 
 ## 🛠️ Getting Started
 
+
 ### Prerequisites
 
-- Node.js >= 18
+- Node.js 22 (LTS) — see `.nvmrc` for the recommended version (22.18.0)
 - npm >= 9
 
 ### Installation
 
+
 1. Clone or use this template
-2. Install dependencies:
+2. (Recommended) Use nvm to set your Node version:
+   ```bash
+   nvm install # Uses the version in .nvmrc (22.18.0)
+   nvm use
+   ```
+3. Install dependencies:
    ```bash
    npm install
    ```
-
-3. Copy environment variables:
+4. Copy environment variables:
    ```bash
    cp .env.example .env
    ```
-
-4. Start development servers:
+5. Start development servers:
    ```bash
    npm run dev
    ```
